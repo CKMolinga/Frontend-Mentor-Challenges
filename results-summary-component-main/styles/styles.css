@@ -73,3 +73,87 @@ p.big-number {
 section.summary {
   padding: 1.5rem 2rem;
 }
+
+h1 {
+  font-size: 1.5em;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+div.summary-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.reaction {
+  background-color: hsl(0, 100%, 67%, 0.1);
+  color: hsl(0, 100%, 67%);
+}
+.memory {
+  background-color: hsl(39, 100%, 56%, 0.1);
+  color: hsl(39, 100%, 56%);
+}
+.verbal {
+  background-color: hsl(166, 100%, 37%, 0.1);
+  color: hsl(166, 100%, 37%);
+}
+.visual {
+  background-color: hsl(235, 85%, 65%, 0.1);
+  color: hsl(235, 85%, 65%);
+}
+
+p.score {
+  color: hsl(0, 64%, 2%);
+}
+
+button {
+  width: 100%;
+  padding: 1rem;
+  background-color: hsl(224, 30%, 27%);
+  color: hsl(0, 0%, 100%);
+  border: none;
+  border-radius: 25px;
+  font-size: 1em;
+  font-weight: bold;
+  box-shadow: 0 2px 8px hsl(224, 30%, 27%);
+  cursor: pointer;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  margin-top: 1rem;
+}
+
+button:hover {
+  background-color: hsl(224, 30%, 35%);
+}
+
+/* Desktop Styles  */
+
+@media (min-width: 600px) {
+  body {
+    height: 100vh;
+    background-color: hsl(225, 100%, 94%);
+  }
+
+  .flex-container {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    /* border: 1px solid red; */
+  }
+
+  section.result {
+    border-radius: 15% 15% 15% 15%;
+    -webkit-border-radius: 15% 15% 15% 15%;
+    -moz-border-radius: 15% 15% 15% 15%;
+    -ms-border-radius: 15% 15% 15% 15%;
+    -o-border-radius: 15% 15% 15% 15%;
+  }
+}
