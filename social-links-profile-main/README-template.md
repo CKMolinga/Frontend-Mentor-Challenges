@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github Repo](https://github.com/CKMolinga/Frontend-Mentor-Challenges/tree/challenge-2-social_links)
+- Solution URL: [Github Repo](https://github.com/CKMolinga/Frontend-Mentor-Challenges/tree/main/social-links-profile-main)
 - Live Site URL: [Live site on Netlify](https://social-profilelinks-charles.netlify.app/)
 
 ## My process
