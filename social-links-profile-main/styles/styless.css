@@ -1,0 +1,113 @@
+/* CSS RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* GLOBAL STYLES */
+
+body {
+  background-color: #141414;
+  font-family: 'Inter', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: #1f1f1f;
+  height: auto;
+  margin: 5%;
+  padding-bottom: 30px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  color: hsl(0, 0%, 100%);
+}
+
+section.profile {
+  text-align: center;
+  padding: 30px 20px 10px 20px;
+  line-height: 1.5;
+}
+
+.profile img {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 15px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+p.about {
+  padding: 0 20px;
+}
+
+h2 {
+  font-size: 1rem;
+  color: hsl(75, 94%, 57%);
+}
+
+p {
+  text-align: center;
+}
+
+section.links {
+  text-align: center;
+  margin: 5% 0;
+}
+
+.links a {
+  display: block;
+  text-decoration: none;
+  background-color: hsl(0, 0%, 20%);
+  max-width: 80%;
+  margin: 0 auto;
+  margin-bottom: 0.8rem;
+  border-radius: 5px;
+  padding: 0.8rem;
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+}
+
+.links a:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+}
+
+/* Desktop Styles */
+@media (min-width: 768px) {
+  .container {
+    width: 50%;
+    margin: 5% auto;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  .links a {
+    font-size: 1.1rem;
+  }
+}
