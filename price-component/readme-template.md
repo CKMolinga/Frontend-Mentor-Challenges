@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github Repo](https://github.com/CKMolinga/Frontend-Mentor-Challenges)
+- Solution URL: [Github Repo](https://github.com/CKMolinga/Frontend-Mentor-Challenges/tree/main/price-component)
 - Live Site URL: [Netlify](https://single-price-component-charles.netlify.app/)
 
 ## My process
