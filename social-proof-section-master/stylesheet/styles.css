@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(12, [col-start] 1fr);
+  gap: 20px;
+}
+
+/* Global Styles  */
+body {
+  font-family: 'League Spartan', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: hsl(0, 0%, 100%);
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: hsl(300, 43%, 22%);
+}
+
+p {
+  font-size: 1rem;
+}
+
+.left-content p {
+  color: hsl(303, 10%, 53%);
+  line-height: 1.5;
+}
+
+.right-content p {
+  color: hsl(300, 43%, 22%);
+}
+
+.card h3,
+.card p {
+  color: hsl(0, 0%, 100%);
+}
+
+p.role {
+  color: hsl(333, 80%, 67%);
+}
+
+/* Mobile First Styles  */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.right-content p {
+  font-weight: bold;
+  text-align: center;
+  font-size: 0.85rem;
+}
+
+.rating {
+  width: 100%;
+  background-color: hsl(290, 30%, 96%);
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+span .fa-star {
+  color: hsl(29, 84%, 59%);
+}
+
+.card {
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+p.review {
+  text-align: center;
+}
+
+p.role {
+  line-height: 0;
+}
+
+.user-info {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.user-info img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
