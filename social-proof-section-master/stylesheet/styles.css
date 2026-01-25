@@ -104,3 +104,69 @@ p.role {
   width: 50px;
   height: 50px;
 }
+
+/* Desktop Styles  */
+@media (min-width: 768px) {
+  .container {
+    padding: 5rem;
+  }
+  .main {
+    display: flex;
+    gap: 6rem;
+  }
+  .left-content {
+    flex: 40%;
+  }
+  h1 {
+    text-align: left;
+    font-size: 3rem;
+  }
+  .right-content {
+    flex: 60%;
+    display: grid;
+  }
+  .rating:nth-child(1) {
+    margin-right: 80px;
+  }
+  .rating:nth-child(2) {
+    margin-right: 40px;
+  }
+  .rating:nth-child(3) {
+    margin-right: 0;
+  }
+  .rating {
+    display: flex;
+    align-items: center;
+    justify-self: flex-end;
+    align-self: flex-end;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+
+  .social-cards {
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+    height: 280px;
+  }
+
+  .card:nth-child(1) {
+    align-self: flex-start;
+  }
+  .card:nth-child(2) {
+    align-self: center;
+  }
+  .card:nth-child(3) {
+    align-self: flex-end;
+  }
+  p.role {
+    line-height: 1;
+  }
+}
+
+/* Large Desktop Styles  */
+@media (min-width: 1200px) {
+  .rating {
+    width: 60%;
+  }
+}
