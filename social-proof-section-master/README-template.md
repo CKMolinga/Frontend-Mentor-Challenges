@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub Repo](https://your-solution-url.com)
+- Solution URL: [GitHub Repo](https://github.com/CKMolinga/Frontend-Mentor-Challenges/tree/main/social-proof-section-master)
 - Live Site URL: [Netlify](https://social-proof-section-charles.netlify.app/)
 
 ## My process
