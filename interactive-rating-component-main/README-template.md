@@ -43,7 +43,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github Repo](https://github.com/CKMolinga/Frontend-Mentor-Challenges/tree/main/interactive-rating-component-main)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Netlify](https://interactive-rating-component-charles.netlify.app/)
 
 ## My process
 
