@@ -11,24 +11,39 @@ body {
   color: hsl(0, 0%, 100%);
 }
 
+#grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 30px;
+  grid-template-areas:
+    'testimonial-1 testimonial-2 testimonial-5'
+    'testimonial-3 testimonial-4 testimonial-5';
+  justify-content: center;
+}
+
 #testimonial-1 {
   background-color: hsl(263, 55%, 52%);
+  grid-area: testimonial-1;
 }
 
 #testimonial-2 {
   background-color: hsl(217, 19%, 35%);
+  grid-area: testimonial-2;
 }
 
 #testimonial-3 {
   background-color: hsl(0, 0%, 100%);
   color: hsl(0, 0%, 7%);
+  grid-area: testimonial-3;
 }
 
 #testimonial-4 {
   background-color: hsl(219, 29%, 14%);
+  grid-area: testimonial-4;
 }
 
 #testimonial-5 {
   background-color: hsl(0, 0%, 100%);
   color: hsl(0, 0%, 7%);
+  grid-area: testimonial-5;
 }
