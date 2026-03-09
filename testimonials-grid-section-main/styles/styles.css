@@ -6,6 +6,8 @@
 }
 
 body {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-style: normal;
   color: hsl(0, 0%, 100%);
 }
 
